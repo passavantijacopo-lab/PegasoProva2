@@ -1,0 +1,137 @@
+:root {
+    --gold: #D4AF37;
+    --gold2: #FFD700;
+    --black: #0A0A0A;
+}
+
+body {
+    background: var(--black);
+    color: #fff;
+    font-family: system-ui, sans-serif;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+    background: rgba(10, 10, 10, 0.95) !important;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--gold) !important;
+}
+
+/* HERO */
+.hero {
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    background: radial-gradient(ellipse at top right, rgba(212, 175, 55, 0.15), transparent 60%), var(--black);
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 7vw, 84px);
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: -2px;
+}
+
+.hero h1 span {
+    color: var(--gold);
+}
+
+/* BOTTONI */
+.badge-gold {
+    background: var(--gold);
+    color: #000;
+    font-weight: 700;
+    padding: 8px 14px;
+    letter-spacing: 1px;
+}
+
+.btn-gold {
+    background: var(--gold);
+    color: #000;
+    font-weight: 800;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.btn-gold:hover {
+    background: var(--gold2);
+    transform: translateY(-2px);
+    color: #000;
+}
+
+/* CARD */
+.card-dark {
+    background: #141414;
+    border: 1px solid #222;
+    transition: .3s;
+}
+
+.card-dark:hover {
+    border-color: var(--gold);
+    transform: translateY(-4px);
+}
+
+.gold-text {
+    color: var(--gold);
+}
+
+.tier-gold {
+    border: 1px solid var(--gold) !important;
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.15);
+}
+
+.sponsor-bar {
+    border-top: 1px solid rgba(212, 175, 55, 0.3);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+    background: #000;
+}
+
+/* IMMAGINI - TUTTO QUI, MAI PIU' NELL'HTML */
+.logo-pegaso-nav {
+    height: 32px;
+    background: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.logo-pegaso-hero {
+    max-height: 420px;
+    filter: drop-shadow(0 0 40px rgba(212, 175, 55, 0.15));
+}
+
+.logo-meucci-header {
+    width: 130px;
+    background: white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.vettura-nuda-img {
+    max-height: 540px;
+    filter: drop-shadow(0 0 40px rgba(212, 175, 55, 0.2));
+}
+
+.vettura-sponsor-img {
+    max-height: 520px;
+}
+
+.logo-pegaso-chi-siamo {
+    max-width: 240px;
+}
+
+footer {
+    border-top: 1px solid #1a1a1a;
+    background: #080808;
+}
