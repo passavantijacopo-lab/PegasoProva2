@@ -135,3 +135,28 @@ footer {
     border-top: 1px solid #1a1a1a;
     background: #080808;
 }
+
+/* SEZIONE COSA VI DIAMO IN CAMBIO */
+.perche-box{
+  background:#141414;
+  border:1px solid #222;
+  border-radius:12px;
+  padding:28px;
+  height:100%;
+  transition:.3s;
+}
+.perche-box:hover{
+  border-color:var(--gold);
+  transform:translateY(-4px);
+}
+.perche-icon{
+  width:56px;
+  height:56px;
+  background:rgba(212,175,55,0.15);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--gold);
+  font-size:26px;
+}
